@@ -1,0 +1,68 @@
+/* phone styling start  */
+@media  screen and (max-width:576px){
+    .container{
+         padding: 10px 0px; 
+         max-width: 100%;
+         
+    }
+    
+    header .right a{
+        display: none;
+
+    }
+    header .right i{
+        display: block;
+    } 
+    .home .btn{
+        display: flex;
+        
+    }
+    .home .text-left{
+        font-size: 1.6rem;
+        text-align:center;
+    }
+    .about-us .text-left{
+        text-align: left;
+        font-size: 2rem;
+        padding-left: 15px;
+        margin-bottom: 5px;
+    
+    }
+    .about-us > .p{
+        text-align: left;
+        padding-left: 15px;
+    }
+   
+   
+    
+    
+    
+    /* it solution start  */
+    
+    /* it solution end  */
+
+    
+    
+}
+
+/* phone styling end  */
+/* tab styling star  */
+@media screen and (min-width:576px) and (max-width:770px){
+    header .right i{
+        display: block;
+    }
+    header .right a{
+        display: none;
+    }
+    
+
+   
+
+}
+@media screen and (min-width:665px) and (max-width:1000px){
+    .it-solution .main-box .grow-0{
+        flex-basis: 300px;
+        flex-grow: 0.2;
+    }
+}
+/* tab styling end  */

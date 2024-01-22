@@ -1,0 +1,454 @@
+/* css reset  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+:root {
+    --primarycolor: rgb(0, 0, 0, 0.8);
+    --secondarycolor: white;
+    --h1size: 3rem;
+    --pcolor: rgb(0, 0, 0, 0.6);
+    --pweight: 500;
+    --pfont: 1.1rem;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.container {
+    max-width: 90%;
+    margin: 0px auto;
+}
+
+/* header section start  */
+header {
+    padding: 30px 0px 0px 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+nav .right {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+.right a {
+    color: var(--primarycolor);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+
+
+.right .let {
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 10px 16px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.right i {
+    font-size: 2rem;
+    padding-top: 10px;
+    display: none;
+}
+
+/* header section end  */
+/* home section start  */
+.home {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+
+}
+
+.home h2{
+    font-size: var(--h1size);
+    text-align: center;
+    font-weight: bold;
+    /* line-height: 80px; */
+    margin-bottom: 20px;
+}
+
+.home p {
+    margin-bottom: 30px;
+    color: var(--primarycolor);
+    font-weight: 500;
+    text-align: center;
+    font-size: var(--pfont);
+}
+
+.home .btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home .btn .btn1 {
+    border: none;
+    background-color: var(--primarycolor);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: var(--secondarycolor);
+    font-weight: var(--pweight);
+}
+
+.home .btn .btn2 {
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: var(--pcolor);
+    font-weight: var(--pweight);
+}
+
+
+/* home section end  */
+/* logo section start  */
+.logo-section {
+    margin-bottom: 80px;
+}
+
+.logo-section p {
+    text-align: center;
+    font-weight: var(--pweight);
+    margin-bottom: 30px;
+}
+
+.logo-section .image-logo {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+/* logo section end  */
+/* it solution start  */
+.it-solution {
+    padding: 50px 0px;
+    border-top: 1px solid white;
+    background-color: rgb(229, 231, 235, 0.6);
+    border-top-right-radius: 10px;
+    margin-bottom: 100px;
+
+}
+
+.it-solution .logo-svg img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(135, 206, 235, 0.8);
+    border-radius: 50%;
+    padding: 8px;
+  
+}
+
+.it-solution .main-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+
+}
+
+.main-box .box {
+    padding: 20px 5px;
+    flex-basis: 300px;
+    flex-grow: 1;
+
+}
+
+.main-box .box h2 {
+    margin-bottom: 20px;
+}
+
+/* bussiness section start  */
+.bussiness {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.bussiness .item1 img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.bussiness .item1 {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.bussiness .item2 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+
+.bussiness .item2 h2 {
+    font-size: 2rem;
+
+}
+
+.bussiness .item2 p {
+    font-size: var(--pfont);
+    font-weight: 300;
+}
+
+.bussiness .item2 a {
+    color: white;
+    background-color: rgb(79, 70, 229, 0.9);
+    font-size: var(--pfont);
+    font-weight: var(--pweight);
+    padding: 10px 15px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+/* bussiness section end  */
+
+/* it solution end  */
+/* toolkit section start  */
+.toolkit-sec{
+    margin-bottom:100px;
+}
+.toolkit-sec h2 {
+    text-align: center;
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+
+}
+
+.toolkit-sec .these {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+
+}
+
+.toolkit-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 50px;
+
+}
+
+.toolkit-box .item {
+    flex-basis: 310px;
+    flex-grow: 1;
+}
+
+.toolkit-box .logo img {
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(0, 0, 0, 0.5) ;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.toolkit-box .item span {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.toolkit-box .logo .next {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.toolkit-box .item .logo {
+    display: flex;
+    gap: 15px;
+}
+.toolkit-box .item p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+/* toolkit section end  */
+/* about section statt  */
+.about-us{
+    padding: 20px 0px;
+    background-color: rgb(229, 231, 235, 0.5);
+    border-top-right-radius:10px ;
+    margin-bottom: 100px;
+}
+.about-us h2{
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 5px;
+
+}
+.about-us p{
+    text-align: center;
+    font-weight: 400;
+    font-size: var(--pfont);
+    margin-bottom: 35px;
+}
+.about-us .about-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.about-box .about-item{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 15px 15px;
+    border-radius: 15px;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+.about-item .logo{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.about-item img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.about-item  p{
+    text-align: left;
+}
+.about-item .logo div{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+   
+}
+
+
+/* about section end  */
+/* gallary section start  */
+.gallary-sec h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+.gallary-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.gallary-item {
+    position: relative;
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+    
+
+    
+}
+
+.gallary-item .upper{
+    background-color: rgb(255, 0, 0, 0.8);
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+.gallary-item:hover .upper{
+    visibility: visible;
+    scale: 1.1;
+    border-radius: 10px;
+}
+.gallary-item img{
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+
+}
+/* gallary section end  */
+/* get started start  */
+.get-started{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+    
+
+}
+.get-started .get-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.get-box h2{
+    font-size: 2.5rem;
+
+}
+.get-box p{
+    font-size:1rem;
+    font-weight: 400;
+}
+.get-box a{
+    background-color: var(--primarycolor);
+    width: 120px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* get started end  */
+/* footer star  */
+footer{
+    border-top: 0.5px solid rgb(0, 0, 0, 0.6) ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 70px 5px;
+    background-color: rgb(240, 255, 255, 0.4);
+   
+    
+}
+footer div{
+    display: flex;
+    gap: 20px ;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    
+
+}
+footer div a{
+    color: rgb(0, 0, 0, 0.4);
+}
+/* footer end  */
