@@ -99,6 +99,7 @@ nav .right {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .home .btn .btn1 {
