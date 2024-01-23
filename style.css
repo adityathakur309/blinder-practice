@@ -285,6 +285,7 @@ nav .right {
 .toolkit-box .item .logo {
     display: flex;
     gap: 15px;
+    flex-wrap: wrap;
 }
 .toolkit-box .item p{
     font-size: 1rem;
